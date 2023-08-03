@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Open+Sans:ital,wght@0,400;1,300;1,400&family=Orbitron:wght@400;500;600;700;800;900&family=Oswald&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Oswald';
+    background-color: #15161B;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo h2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.logo span {
+    color: #1a7993;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.area-title h3 {
+    color: #fff;
+    font-weight: normal;
+}
+
+.area-title h1 {
+    color: #fff;
+    font-size: 45px;
+    line-height: 50px;
+    margin-top: 5px;
+}
+
+.image1 img {
+    width: 350px;
+    height: auto;
+}
+
