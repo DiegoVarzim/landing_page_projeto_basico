@@ -85,6 +85,7 @@ header {
     display:flex;
     flex-direction:row;
     margin-top: 50px;
+    cursor: pointer;
 }
 
 .card {
@@ -156,4 +157,74 @@ header {
     
 }
 
+/* AREA FORM */
 
+.area-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-direction:column;
+}
+
+.area-form h2 {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+}
+
+.formulario input {
+    margin-top: 20px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    text-align: center;
+    font-family: 'Oswald';
+}
+
+input::placeholder {
+    color: #000;
+    text-transform: uppercase;
+}
+
+input[type="submit"] {
+    background-color: #1a7993;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    height: 55px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #fff;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+   
+   
+}
+
+.social h3 {
+    flex-direction: column;
+    color: #fff;
+    font-weight: normal;
+}
+
+.social img {
+    width: 45px;
+    margin-left: 15px;
+}
