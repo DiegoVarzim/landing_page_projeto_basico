@@ -119,6 +119,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+    margin-top: -80px;
 }
 
 .image2 img {
@@ -152,6 +153,7 @@ header {
     font-size: 19px;
     font-weight: bold;
     margin-top: 25px;
+    margin-bottom: 10px;
     margin-left: 35px;
     cursor: pointer;
     
@@ -163,7 +165,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
     flex-direction:column;
 }
 
@@ -204,22 +206,15 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-footer {
-    background-color: #fff;
-}
 
 .social {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    padding-left: 490px;
     
-   
-   
 }
 
 .social h3 {
-    flex-direction: column;
+    padding-left: 15px;
+    padding-bottom: 25px;
     color: #fff;
     font-weight: normal;
 }
@@ -227,4 +222,10 @@ footer {
 .social img {
     width: 45px;
     margin-left: 15px;
+    padding-bottom: 35px;
 }
+
+.social img:hover {
+    cursor: pointer;
+}
+
